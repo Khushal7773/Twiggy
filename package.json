@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is a food delivery app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khushal7773/Twiggy.git"
+  },
+  "author": "Khushal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khushal7773/Twiggy/issues"
+  },
+  "homepage": "https://github.com/Khushal7773/Twiggy#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
