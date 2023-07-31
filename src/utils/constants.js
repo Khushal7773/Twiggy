@@ -4,5 +4,4 @@ export const CDN_URL =
 export const LOGO_URL =
   "https://img.freepik.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg";
 
-export const MENU_API =
-  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=";
+export const MENU_API ="https://corsproxy.io/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Fmenu%2Fpl%3Fpage-type%3DREGULAR_MENU%26complete-menu%3Dtrue%26lat%3D21.1702401%26lng%3D72.83106070000001&restaurantId="

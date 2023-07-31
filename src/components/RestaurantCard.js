@@ -10,8 +10,8 @@ const RestaurantCard = (props) => {
     avgRating,
     cuisines,
     costForTwo,
-    deliveryTime,
-  } = resData?.data;
+    sla,
+  } = resData;
 
   return (
     <div className="m-3 p-2 w-72 rounded-lg bg-gray-100 hover:bg-gray-200">
@@ -25,8 +25,8 @@ const RestaurantCard = (props) => {
       <h4 className="text-sm pb-2">{cuisines.join(", ")}</h4>
       <div className="flex justify-between">
       <div className="bg-white px-1 w-12 border border-black rounded-lg flex justify-between items-center">{avgRating} <img src="https://www.freeiconspng.com/thumbs/stars-png/download-png-image-star-png-image-1.png" className="w-4"/> </div>
-      <h4>₹{costForTwo / 100} FOR TWO</h4>
-      <h4>{deliveryTime} MINS</h4>
+      <h4>{costForTwo}</h4>
+      <h4>{sla.deliveryTime} MINS</h4>
       </div>
       </div>
     </div>
